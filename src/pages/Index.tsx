@@ -160,7 +160,7 @@ const Index = () => {
             {[
               {
                 title: "ERP & Finance Systems",
-                items: ["NetSuite (Financials)", "Oracle Fusion HCM/Financials", "SAP Concur (exposure)", "Dynamics 365 (exposure)"],
+                items: ["NetSuite (Financials)", "Oracle Fusion HCM/Financials"],
               },
               {
                 title: "HR & Talent Systems",
@@ -169,6 +169,10 @@ const Index = () => {
               {
                 title: "Automation & AI",
                 items: ["Power Automate", "N8N", "iPaaS", "REST APIs", "Webhooks", "AI Copilots", "OCR", "Predictive Analytics"],
+              },
+              {
+                title: "Coding & Cloud",
+                items: ["Javascript", "React", "Python", "SQL DB", "Azure Cloud Services"],
               },
               {
                 title: "Governance & Security",
@@ -198,7 +202,7 @@ const Index = () => {
           <div className="bg-accent/10 border-2 border-accent/30 rounded-2xl p-6">
             <p className="text-sm font-semibold text-primary mb-3">Keywords:</p>
             <div className="flex flex-wrap gap-2">
-              {["NetSuite", "Oracle Fusion", "ServiceNow", "SilkRoad", "Dynamics 365", "SAP Concur", "AI", "Automation", "iPaaS", "GDPR", "SOX", "ISO27001"].map((keyword, idx) => (
+              {["NetSuite", "Oracle Fusion", "ServiceNow", "SilkRoad", "AI", "Automation", "iPaaS", "Javascript", "React", "Python", "Azure", "GDPR", "SOX", "ISO27001"].map((keyword, idx) => (
                 <span
                   key={idx}
                   className="px-3 py-1 bg-accent/20 text-accent text-sm font-medium rounded-full"
