@@ -132,8 +132,8 @@ const Index = () => {
             {/* Quick Stats */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-12 max-w-4xl mx-auto">
               {[
-                { value: "12+", label: "Years Experience" },
-                { value: "10K+", label: "Employees Supported" },
+                { value: "10+", label: "Years Experience" },
+                { value: "5K+", label: "Employees Supported" },
                 { value: "30+", label: "Systems Integrated" },
                 { value: "99.7%", label: "Uptime / 65% Manual Reduction" },
               ].map((stat, idx) => (
@@ -262,7 +262,7 @@ const Index = () => {
                 company: "Brillio",
                 period: "2022–Present",
                 achievements: [
-                  "Own global ERP & HR platforms (NetSuite, Fusion HCM, SilkRoad, ServiceNow, Lever ATS, Immidart) for 10K+ employees.",
+                  "Own global ERP & HR platforms (NetSuite, Fusion HCM, SilkRoad, ServiceNow, Lever ATS, Immidart) for 5K+ employees.",
                   "AI-led automation (Power Automate, N8N) → 65% manual reduction, 99.7% uptime.",
                   "30+ systems integrated via APIs/iPaaS; audit-ready compliance (GDPR, SOX, ISO27001).",
                   "Led 20+ global professionals; 4 M&A integrations; Employee of the Year (CIO Award).",
